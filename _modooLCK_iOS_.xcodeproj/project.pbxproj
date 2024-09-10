@@ -14,6 +14,14 @@
 		44E88F0A2C90CC8700B5BDE5 /* _modooLCK_iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F092C90CC8700B5BDE5 /* _modooLCK_iOS_Tests.swift */; };
 		44E88F142C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F132C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift */; };
 		44E88F162C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F152C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift */; };
+		44E88F2C2C90CE6800B5BDE5 /* homeMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F242C90CE6800B5BDE5 /* homeMatch.swift */; };
+		44E88F2D2C90CE6800B5BDE5 /* homeResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F252C90CE6800B5BDE5 /* homeResultCell.swift */; };
+		44E88F2E2C90CE6800B5BDE5 /* HomePolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F262C90CE6800B5BDE5 /* HomePolygon.swift */; };
+		44E88F2F2C90CE6800B5BDE5 /* homeButtonEtc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F272C90CE6800B5BDE5 /* homeButtonEtc.swift */; };
+		44E88F302C90CE6800B5BDE5 /* homeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F282C90CE6800B5BDE5 /* homeResult.swift */; };
+		44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F292C90CE6800B5BDE5 /* homeAboutLCK.swift */; };
+		44E88F322C90CE6800B5BDE5 /* homeTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F2A2C90CE6800B5BDE5 /* homeTopbar.swift */; };
+		44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88F2B2C90CE6800B5BDE5 /* HomeUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		44E88F0F2C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _modooLCK_iOS_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E88F132C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _modooLCK_iOS_UITests.swift; sourceTree = "<group>"; };
 		44E88F152C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _modooLCK_iOS_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44E88F242C90CE6800B5BDE5 /* homeMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeMatch.swift; sourceTree = "<group>"; };
+		44E88F252C90CE6800B5BDE5 /* homeResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeResultCell.swift; sourceTree = "<group>"; };
+		44E88F262C90CE6800B5BDE5 /* HomePolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePolygon.swift; sourceTree = "<group>"; };
+		44E88F272C90CE6800B5BDE5 /* homeButtonEtc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeButtonEtc.swift; sourceTree = "<group>"; };
+		44E88F282C90CE6800B5BDE5 /* homeResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeResult.swift; sourceTree = "<group>"; };
+		44E88F292C90CE6800B5BDE5 /* homeAboutLCK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeAboutLCK.swift; sourceTree = "<group>"; };
+		44E88F2A2C90CE6800B5BDE5 /* homeTopbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTopbar.swift; sourceTree = "<group>"; };
+		44E88F2B2C90CE6800B5BDE5 /* HomeUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,7 @@
 		44E88EF72C90CC8500B5BDE5 /* _modooLCK_iOS_ */ = {
 			isa = PBXGroup;
 			children = (
+				44E88F222C90CE5300B5BDE5 /* presentation */,
 				44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */,
 				44E88EFA2C90CC8500B5BDE5 /* ContentView.swift */,
 				44E88EFC2C90CC8700B5BDE5 /* Assets.xcassets */,
@@ -125,6 +142,29 @@
 				44E88F152C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift */,
 			);
 			path = _modooLCK_iOS_UITests;
+			sourceTree = "<group>";
+		};
+		44E88F222C90CE5300B5BDE5 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				44E88F232C90CE5C00B5BDE5 /* home */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		44E88F232C90CE5C00B5BDE5 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				44E88F292C90CE6800B5BDE5 /* homeAboutLCK.swift */,
+				44E88F272C90CE6800B5BDE5 /* homeButtonEtc.swift */,
+				44E88F242C90CE6800B5BDE5 /* homeMatch.swift */,
+				44E88F262C90CE6800B5BDE5 /* HomePolygon.swift */,
+				44E88F282C90CE6800B5BDE5 /* homeResult.swift */,
+				44E88F252C90CE6800B5BDE5 /* homeResultCell.swift */,
+				44E88F2A2C90CE6800B5BDE5 /* homeTopbar.swift */,
+				44E88F2B2C90CE6800B5BDE5 /* HomeUI.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E88F322C90CE6800B5BDE5 /* homeTopbar.swift in Sources */,
+				44E88F302C90CE6800B5BDE5 /* homeResult.swift in Sources */,
+				44E88F2C2C90CE6800B5BDE5 /* homeMatch.swift in Sources */,
+				44E88F2F2C90CE6800B5BDE5 /* homeButtonEtc.swift in Sources */,
+				44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */,
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
+				44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */,
 				44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */,
+				44E88F2D2C90CE6800B5BDE5 /* homeResultCell.swift in Sources */,
+				44E88F2E2C90CE6800B5BDE5 /* HomePolygon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
