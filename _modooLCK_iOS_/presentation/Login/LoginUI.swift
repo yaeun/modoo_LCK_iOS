@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LoginUI: View {
+    
+    @StateObject var kakaoAuthVM : KakaoAuthVM = KakaoAuthVM()
+    
     var body: some View {
             ZStack {
               
@@ -27,6 +30,7 @@ struct LoginUI: View {
                     
                    Button (action: {
                         print("kakaoBtn")
+                       kakaoAuthVM.handleKakaoLogin()
                     }){
                         Image("kakao")
                             .resizable()
