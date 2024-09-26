@@ -6,12 +6,25 @@
 //
 
 import SwiftUI
-
+import KakaoSDKCommon
+import KakaoSDKAuth
 @main
 struct _modooLCK_iOS_App: App {
+    
+    init() {
+        let kakaoAppKey = Bundle.main.infoDictionary?["KAKAO_NATIVE_APP_KEY"] ?? ""
+        // Kakao SDK 초기화
+        KakaoSDK.initSDK(appKey: kakaoAppKey as! String)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginUI()
+                .onOpenURL { url in
+                                if (AuthApi.isKakaoTalkLoginUrl(url)) {
+                                    _ = AuthController.handleOpenUrl(url: url)
+                                }
+                            }
         }
     }
 }
