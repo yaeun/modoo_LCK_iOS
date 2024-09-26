@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct joinAgreement: View {
+    @State private var isCheckedAll: Bool = false
+    @State private var isCheckedService: Bool = false
+    @State private var isCheckedPrivacy: Bool = false
+    @State private var showingAlert: Bool = false
+    
     var body: some View {
         ZStack {
             // 배경 이미지
@@ -17,7 +22,7 @@ struct joinAgreement: View {
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
-                // 상단바를 상단에 고정
+                // 상단바
                 Topbar_2(Title: "회원가입", SubTitle: "사용 약관")
                     .frame(height: 100)
                     .frame(maxWidth: .infinity)
@@ -28,7 +33,12 @@ struct joinAgreement: View {
                     HStack {
                         Text("모두 동의")
                         Spacer()
-                        radioBtn()
+                        radioBtn(isChecked: $isCheckedAll)
+                            .onTapGesture {
+                                isCheckedAll.toggle()
+                                isCheckedService = isCheckedAll
+                                isCheckedPrivacy = isCheckedAll
+                            }
                     }
                     .padding(.bottom, 36)
 
@@ -37,11 +47,18 @@ struct joinAgreement: View {
                         HStack {
                             Text("서비스 이용약관에 동의 ( 필수 )")
                             Spacer()
-                            radioBtn()
+                            radioBtn(isChecked: $isCheckedService)
+                                .onTapGesture {
+                                    isCheckedService.toggle()
+                                    // "모두 동의"를 해제하면 개별 체크박스 체크 해제
+                                    if isCheckedService == false {
+                                        isCheckedAll = false
+                                    }
+                                }
                         }
                         HStack {
                             Button(action: {
-                                // 세부 정보 보기 동작
+                                showingAlert.toggle()
                             }) {
                                 Text("세부 정보 보기 >")
                                     .foregroundColor(.gray)
@@ -56,11 +73,18 @@ struct joinAgreement: View {
                         HStack {
                             Text("개인정보 처리방침에 동의 ( 필수 )")
                             Spacer()
-                            radioBtn()
+                            radioBtn(isChecked: $isCheckedPrivacy)
+                                .onTapGesture {
+                                    isCheckedPrivacy.toggle()
+                                    // "모두 동의"를 해제하면 개별 체크박스 체크 해제
+                                    if isCheckedPrivacy == false {
+                                        isCheckedAll = false
+                                    }
+                                }
                         }
                         HStack {
                             Button(action: {
-                                // 세부 정보 보기 동작
+                                showingAlert.toggle()
                             }) {
                                 Text("세부 정보 보기 >")
                                     .foregroundColor(.gray)
@@ -70,9 +94,16 @@ struct joinAgreement: View {
                     }
                 }
                 .padding(.horizontal, 60)
-                .padding(.vertical,82)
-                Spacer() // 아래쪽 여유 공간
+                .padding(.vertical, 82)
+                Spacer()
             }
+        }
+        .alert(isPresented: $showingAlert) {
+            Alert(
+                title: Text("세부 정보"),
+                message: Text("여기에 서비스 이용약관의 세부 정보가 표시됩니다."),
+                dismissButton: .default(Text("확인"))
+            )
         }
     }
 }
