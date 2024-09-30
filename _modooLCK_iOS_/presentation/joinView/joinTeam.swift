@@ -1,4 +1,4 @@
-//
+   //
 //  joinTeam.swift
 //  modoo_LCK_iOS
 //
@@ -25,7 +25,7 @@ struct joinTeam: View {
                 
                 Text("한 팀만 선택할 수 있습니다")
                     .font(
-                        Font.custom("Cafe24 Ohsquare air", size: 8)
+                        Font.custom("Cafe24 Ohsquare air", size: 12)
                             .weight(.light)
                     )
                     .kerning(0.08)

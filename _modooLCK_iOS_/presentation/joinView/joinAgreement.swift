@@ -36,8 +36,8 @@ struct joinAgreement: View {
                         radioBtn(isChecked: $isCheckedAll)
                             .onTapGesture {
                                 isCheckedAll.toggle()
-                                isCheckedService = isCheckedAll
-                                isCheckedPrivacy = isCheckedAll
+                                isCheckedService.toggle()
+                                isCheckedPrivacy.toggle()
                             }
                     }
                     .padding(.bottom, 36)
