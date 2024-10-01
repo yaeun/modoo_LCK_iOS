@@ -13,62 +13,65 @@ struct AgreementList: View {
 
     var body: some View {
         VStack(spacing: 0) {
+            //모두 동의
             HStack {
-                Toggle("전체 동의하기", isOn: $permitVM.allPermit)
-                    .toggleStyle(CheckboxToggleStyle())
-                    .foregroundColor(.white)
-                    .font(.system(size: 20, weight: .bold))
-
+                Text("모두 동의")
+                    .font(.system(size: 16, weight: .medium))
                 Spacer()
-            }
-            .padding(.bottom, 14)
-
-            HStack {
-                Toggle("만 14세 이상입니다", isOn: $permitVM.fourteenPermit)
+                Toggle("", isOn: $permitVM.allPermit)
                     .toggleStyle(CheckboxToggleStyle())
                     .foregroundColor(.white)
-
-                Spacer()
+                
             }
-            .padding(.bottom, 8)
-
-            HStack {
-                Toggle("서비스 이용 약관 동의", isOn: $permitVM.termsOfServicePermit)
-                    .toggleStyle(CheckboxToggleStyle())
-                    .foregroundColor(.white)
-
-                Button {
-                    //nicknameViewModel.send(action: .moveToWebView(where: "termsOfService"))
-                } label: {
-                    Text("보기")
-                        .underline()
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundColor(.red)
+            .padding(.bottom, 36)
+            
+            //개인정보처리방침
+            VStack(alignment:.leading){
+                HStack {
+                    Text("개인정보 처리방침에 동의 ( 필수 )")
+                        .font(.system(size: 14, weight: .medium))
+                    Spacer()
+                    Toggle("", isOn: $permitVM.fourteenPermit)
+                        .toggleStyle(CheckboxToggleStyle())
+                        .foregroundColor(.white)
                 }
-
-                Spacer()
-            }
-            .padding(.bottom, 8)
-
-            HStack {
-                Toggle("개인정보 처리방침 동의", isOn: $permitVM.informationPermit)
-                    .toggleStyle(CheckboxToggleStyle())
-                    .foregroundColor(.white)
-
-                Button {
-                    //nicknameViewModel.send(action: .moveToWebView(where: "privateInfo"))
-                } label: {
-                    Text("보기")
-                        .underline()
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundColor(.red)
+                .padding(.bottom,4)
+                    Button {
+                        
+                    } label: {
+                        Text("세부 정보 보기 >")
+                            .font(.system(size: 14, weight: .medium))
+                            .foregroundColor(.gray)
+                    }
                 }
-
-                Spacer()
+            .padding(.bottom, 36)
+            
+            VStack(alignment:.leading){
+                HStack {
+                    Text("서비스 이용약관에 동의 ( 필수 )")
+                        .font(.system(size: 14, weight: .medium))
+                    Spacer()
+                    Toggle("", isOn: $permitVM.termsOfServicePermit)
+                        .toggleStyle(CheckboxToggleStyle())
+                        .foregroundColor(.white)
+                }
+                .padding(.bottom,4)
+                Button {
+                    
+                } label: {
+                    Text("세부 정보 보기 >")
+                        .font(.system(size: 14, weight: .medium))
+                        .foregroundColor(.gray)
+                }
+                
+                
             }
         }
+
+           
+        }
     }
-}
+
 
 #Preview {
     AgreementList() // AgreementList 뷰를 미리보기로 설정

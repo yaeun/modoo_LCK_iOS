@@ -27,62 +27,20 @@ struct joinAgreement: View {
                     .frame(height: 100)
                     .frame(maxWidth: .infinity)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                    .padding(.bottom,82)
 
-                VStack {
-                    // 모두 동의
-                    HStack {
-                        Text("모두 동의")
-                        Spacer()
-                      
-                    }
-                    .padding(.bottom, 36)
-
-                    // 서비스 이용약관
-                    VStack {
-                        HStack {
-                            Text("서비스 이용약관에 동의 ( 필수 )")
-                            Spacer()
-                         
-                        }
-                        HStack {
-                            Button(action: {
-                                showingAlert.toggle()
-                            }) {
-                                Text("세부 정보 보기 >")
-                                    .foregroundColor(.gray)
-                            }
-                            Spacer()
-                        }
-                    }
-                    .padding(.bottom, 36)
-
-                    // 개인정보 처리방침
-                    VStack {
-                        HStack {
-                            Text("개인정보 처리방침에 동의 ( 필수 )")
-                            Spacer()
-                         
-                                        
-                                    }
-                                }
-                        }
-                        HStack {
-                            Button(action: {
-                                showingAlert.toggle()
-                            }) {
-                                Text("세부 정보 보기 >")
-                                    .foregroundColor(.gray)
-                            }
-                            Spacer()
-                        }
-                    }
-                }
-                .padding(.horizontal, 60)
-                .padding(.vertical, 82)
+                AgreementList()
+                    .padding(.horizontal,60)
+                
                 Spacer()
+                        }//VStack
+            
+                    }//ZStack
+        
+                }
             }
-        }
-     //   .alert(isPresented: $showingAlert) {
+        
+
            
 
 #Preview {

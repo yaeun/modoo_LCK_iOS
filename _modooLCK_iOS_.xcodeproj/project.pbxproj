@@ -169,13 +169,13 @@
 		442ADBFA2CA5B61B00A79772 /* joinView */ = {
 			isa = PBXGroup;
 			children = (
-				442ADBFB2CA5B72300A79772 /* joinAgreement.swift */,
 				442ADBFF2CA5C31D00A79772 /* popup_oneBtn.swift */,
 				442ADC012CA5D56C00A79772 /* joinNickname.swift */,
 				442ADC032CA5DA5200A79772 /* nickNameCheck.swift */,
 				442ADC052CA5DE2400A79772 /* joinPhoto.swift */,
 				442ADC072CA5DF6C00A79772 /* joinTeam.swift */,
 				442ADC082CA5DF6F00A79772 /* Teamselect.swift */,
+				442ADBFB2CA5B72300A79772 /* joinAgreement.swift */,
 				442ADBFD2CA5B7D000A79772 /* radioBtn.swift */,
 				44C4DD782CAC47DE006EFDCC /* AgreementList.swift */,
 				44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */,

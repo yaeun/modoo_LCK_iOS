@@ -16,7 +16,7 @@ struct CheckboxToggleStyle: ToggleStyle {
         }, label: {
             HStack {
                 Image(systemName: configuration.isOn ? "circle.fill" : "circle")
-                    .imageScale(.large)
+                    .frame(width: 12,height: 12)
                     .foregroundColor(.white)
 
                 configuration.label
