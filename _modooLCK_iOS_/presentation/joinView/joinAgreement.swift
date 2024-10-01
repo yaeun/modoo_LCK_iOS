@@ -33,12 +33,7 @@ struct joinAgreement: View {
                     HStack {
                         Text("모두 동의")
                         Spacer()
-                        radioBtn(isChecked: $isCheckedAll)
-                            .onTapGesture {
-                                isCheckedAll.toggle()
-                                isCheckedService.toggle()
-                                isCheckedPrivacy.toggle()
-                            }
+                      
                     }
                     .padding(.bottom, 36)
 
@@ -47,14 +42,7 @@ struct joinAgreement: View {
                         HStack {
                             Text("서비스 이용약관에 동의 ( 필수 )")
                             Spacer()
-                            radioBtn(isChecked: $isCheckedService)
-                                .onTapGesture {
-                                    isCheckedService.toggle()
-                                    // "모두 동의"를 해제하면 개별 체크박스 체크 해제
-                                    if isCheckedService == false {
-                                        isCheckedAll = false
-                                    }
-                                }
+                         
                         }
                         HStack {
                             Button(action: {
@@ -73,12 +61,8 @@ struct joinAgreement: View {
                         HStack {
                             Text("개인정보 처리방침에 동의 ( 필수 )")
                             Spacer()
-                            radioBtn(isChecked: $isCheckedPrivacy)
-                                .onTapGesture {
-                                    isCheckedPrivacy.toggle()
-                                    // "모두 동의"를 해제하면 개별 체크박스 체크 해제
-                                    if isCheckedPrivacy == false {
-                                        isCheckedAll = false
+                         
+                                        
                                     }
                                 }
                         }
@@ -98,15 +82,8 @@ struct joinAgreement: View {
                 Spacer()
             }
         }
-        .alert(isPresented: $showingAlert) {
-            Alert(
-                title: Text("세부 정보"),
-                message: Text("여기에 서비스 이용약관의 세부 정보가 표시됩니다."),
-                dismissButton: .default(Text("확인"))
-            )
-        }
-    }
-}
+     //   .alert(isPresented: $showingAlert) {
+           
 
 #Preview {
     joinAgreement()

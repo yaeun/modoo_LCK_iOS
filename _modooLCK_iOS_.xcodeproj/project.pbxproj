@@ -29,6 +29,8 @@
 		442ADC062CA5DE2400A79772 /* joinPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC052CA5DE2400A79772 /* joinPhoto.swift */; };
 		442ADC092CA5DF6F00A79772 /* joinTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC072CA5DF6C00A79772 /* joinTeam.swift */; };
 		442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC082CA5DF6F00A79772 /* Teamselect.swift */; };
+		44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD782CAC47DE006EFDCC /* AgreementList.swift */; };
+		44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */; };
 		44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */; };
 		44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88EFA2C90CC8500B5BDE5 /* ContentView.swift */; };
 		44E88EFD2C90CC8700B5BDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E88EFC2C90CC8700B5BDE5 /* Assets.xcassets */; };
@@ -66,7 +68,6 @@
 /* Begin PBXFileReference section */
 		44172D1B2C918A6B00765C26 /* LoginUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
 		44172D282C918D2300765C26 /* -modooLCK-iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-modooLCK-iOS--Info.plist"; sourceTree = SOURCE_ROOT; };
-		44172D292C918DE000765C26 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		44172D2A2C920BDE00765C26 /* KakaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
 		44172D2D2C92100E00765C26 /* MyPageUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageUI.swift; sourceTree = "<group>"; };
 		44172D302C92106300765C26 /* Topbar_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topbar_3.swift; sourceTree = "<group>"; };
@@ -83,6 +84,8 @@
 		442ADC052CA5DE2400A79772 /* joinPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joinPhoto.swift; sourceTree = "<group>"; };
 		442ADC072CA5DF6C00A79772 /* joinTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = joinTeam.swift; sourceTree = "<group>"; };
 		442ADC082CA5DF6F00A79772 /* Teamselect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teamselect.swift; sourceTree = "<group>"; };
+		44C4DD782CAC47DE006EFDCC /* AgreementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementList.swift; sourceTree = "<group>"; };
+		44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermitViewModel.swift; sourceTree = "<group>"; };
 		44E88EF52C90CC8500B5BDE5 /* _modooLCK_iOS_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _modooLCK_iOS_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _modooLCK_iOS_App.swift; sourceTree = "<group>"; };
 		44E88EFA2C90CC8500B5BDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -173,6 +176,9 @@
 				442ADC052CA5DE2400A79772 /* joinPhoto.swift */,
 				442ADC072CA5DF6C00A79772 /* joinTeam.swift */,
 				442ADC082CA5DF6F00A79772 /* Teamselect.swift */,
+				442ADBFD2CA5B7D000A79772 /* radioBtn.swift */,
+				44C4DD782CAC47DE006EFDCC /* AgreementList.swift */,
+				44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */,
 			);
 			path = joinView;
 			sourceTree = "<group>";
@@ -206,7 +212,6 @@
 				44E88EFA2C90CC8500B5BDE5 /* ContentView.swift */,
 				44E88EFC2C90CC8700B5BDE5 /* Assets.xcassets */,
 				44E88EFE2C90CC8700B5BDE5 /* Preview Content */,
-				44172D292C918DE000765C26 /* Config.xcconfig */,
 			);
 			path = _modooLCK_iOS_;
 			sourceTree = "<group>";
@@ -244,7 +249,6 @@
 				44172D2C2C920FEE00765C26 /* myPage */,
 				44172D1A2C918A5B00765C26 /* Login */,
 				44E88F232C90CE5C00B5BDE5 /* home */,
-				442ADBFD2CA5B7D000A79772 /* radioBtn.swift */,
 			);
 			path = presentation;
 			sourceTree = "<group>";
@@ -406,6 +410,7 @@
 			files = (
 				44E88F322C90CE6800B5BDE5 /* homeTopbar.swift in Sources */,
 				44E88F302C90CE6800B5BDE5 /* homeResult.swift in Sources */,
+				44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */,
 				44172D352C92106300765C26 /* Topbar_2.swift in Sources */,
 				44E88F2C2C90CE6800B5BDE5 /* homeMatch.swift in Sources */,
 				44172D1C2C918A6B00765C26 /* LoginUI.swift in Sources */,
@@ -420,6 +425,7 @@
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
 				44172D342C92106300765C26 /* Topbar_1.swift in Sources */,
 				44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */,
+				44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */,
 				442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */,
 				442ADBFE2CA5B7D000A79772 /* radioBtn.swift in Sources */,
 				44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */,
@@ -469,7 +475,6 @@
 /* Begin XCBuildConfiguration section */
 		44E88F172C90CC8700B5BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44172D292C918DE000765C26 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -533,7 +538,6 @@
 		};
 		44E88F182C90CC8700B5BDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44172D292C918DE000765C26 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -590,7 +594,6 @@
 		};
 		44E88F1A2C90CC8700B5BDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44172D292C918DE000765C26 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -621,7 +624,6 @@
 		};
 		44E88F1B2C90CC8700B5BDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44172D292C918DE000765C26 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
