@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct PopupOneBtn: View {
-    @Environment(\.presentationMode) var presentationMode
-    @State var title : String
-    @State var content : String
-    @Binding var isAlertPresented_Agree1: Bool
+    @State var title: String
+    @State var content: String
+    @Binding var isAlertPresented_Agree1: Bool // 팝업 표시 상태
+    @Binding var isConfirmed: Bool // 확인 버튼이 눌렸는지 여부
+
     var body: some View {
         ZStack {
-            Color.black.opacity(0.8) 
+            Color.black.opacity(0.8)
                 .edgesIgnoringSafeArea(.all)
+
             ZStack {
-                Rectangle()
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(Color(red: 0.95, green: 0.95, blue: 0.95))
                     .frame(width: 280, height: 513)
-                    .background(Color(red: 0.95, green: 0.95, blue: 0.95))
                     .overlay(popupContent)
-                    .clipShape(RoundedRectangle(cornerRadius: 12))
             }
         }
     }
+
     // 팝업 내용
     private var popupContent: some View {
         VStack {
@@ -35,36 +37,30 @@ struct PopupOneBtn: View {
                 .padding(.bottom, 24)
                 .font(.system(size: 14, weight: .medium))
             
-            
             ScrollView {
                 Text(content)
                     .foregroundColor(.gray)
                     .lineLimit(nil)
                     .font(.system(size: 10))
             }
-            .padding(.horizontal,25)
-            
+            .padding(.horizontal, 25)
+
             Spacer()
-            
+
+            // 확인 버튼
             Button(action: {
-                presentationMode.wrappedValue.dismiss()
-                isAlertPresented_Agree1 = false
+                isAlertPresented_Agree1 = false // 팝업을 닫음
+                isConfirmed = true // 확인 버튼이 눌렸음을 표시
             }) {
-                Rectangle()
-                    .frame(width: 300, height: 40)
-                    .foregroundColor(Color("#E3E4F2"))
+                RoundedRectangle(cornerRadius: 8)
+                    .frame(width: 280, height: 40)
+                    .foregroundColor(Color(red: 0.89, green: 0.89, blue: 0.95))
                     .overlay(
                         Text("확인")
                             .foregroundColor(.gray)
                             .font(.system(size: 14, weight: .medium))
                     )
-                
             }
-            
         }
-        
     }
 }
-
-
-

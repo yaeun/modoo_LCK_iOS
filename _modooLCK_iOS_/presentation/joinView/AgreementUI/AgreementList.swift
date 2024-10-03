@@ -10,6 +10,7 @@ import SwiftUI
 // 이용약관 동의 뷰
 struct AgreementList: View {
     @Binding var isAlertPresented_1: Bool
+    @Binding var isAlertPresented_2: Bool
     @ObservedObject var permitVM = PermitViewModel()
     var body: some View {
         ZStack{
@@ -59,7 +60,7 @@ struct AgreementList: View {
                     }
                     .padding(.bottom,4)
                     Button {
-                        
+                        isAlertPresented_2.toggle()
                     } label: {
                         Text("세부 정보 보기 >")
                             .font(.system(size: 14, weight: .medium))
@@ -76,5 +77,5 @@ struct AgreementList: View {
 }
 
 #Preview {
-    AgreementList(isAlertPresented_1: .constant(false))
+    AgreementList(isAlertPresented_1: .constant(false), isAlertPresented_2: .constant(false))
 }

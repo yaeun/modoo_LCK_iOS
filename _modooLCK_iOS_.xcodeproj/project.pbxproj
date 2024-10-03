@@ -21,6 +21,7 @@
 		44172D372C92109800765C26 /* Topbar_single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44172D362C92109800765C26 /* Topbar_single.swift */; };
 		44172D392C9213E000765C26 /* myPageUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44172D382C9213E000765C26 /* myPageUserInfo.swift */; };
 		44172D3B2C9215A200765C26 /* myPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44172D3A2C9215A200765C26 /* myPageMenu.swift */; };
+		4422BAF42CAF01F8002F1132 /* Service_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4422BAF32CAF01F8002F1132 /* Service_Text.swift */; };
 		442ADBFC2CA5B72300A79772 /* joinAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADBFB2CA5B72300A79772 /* joinAgreement.swift */; };
 		442ADBFE2CA5B7D000A79772 /* radioBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADBFD2CA5B7D000A79772 /* radioBtn.swift */; };
 		442ADC002CA5C31D00A79772 /* popup_oneBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADBFF2CA5C31D00A79772 /* popup_oneBtn.swift */; };
@@ -77,6 +78,7 @@
 		44172D362C92109800765C26 /* Topbar_single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topbar_single.swift; sourceTree = "<group>"; };
 		44172D382C9213E000765C26 /* myPageUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageUserInfo.swift; sourceTree = "<group>"; };
 		44172D3A2C9215A200765C26 /* myPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageMenu.swift; sourceTree = "<group>"; };
+		4422BAF32CAF01F8002F1132 /* Service_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_Text.swift; sourceTree = "<group>"; };
 		442ADBFB2CA5B72300A79772 /* joinAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joinAgreement.swift; sourceTree = "<group>"; };
 		442ADBFD2CA5B7D000A79772 /* radioBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioBtn.swift; sourceTree = "<group>"; };
 		442ADBFF2CA5C31D00A79772 /* popup_oneBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popup_oneBtn.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				44C4DD7C2CAC5BDD006EFDCC /* AgreementUI */,
 				442ADBFF2CA5C31D00A79772 /* popup_oneBtn.swift */,
 				44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */,
+				4422BAF32CAF01F8002F1132 /* Service_Text.swift */,
 				442ADC082CA5DF6F00A79772 /* Teamselect.swift */,
 				442ADC012CA5D56C00A79772 /* joinNickname.swift */,
 				442ADC032CA5DA5200A79772 /* nickNameCheck.swift */,
@@ -440,6 +443,7 @@
 				44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */,
 				442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */,
 				442ADBFE2CA5B7D000A79772 /* radioBtn.swift in Sources */,
+				4422BAF42CAF01F8002F1132 /* Service_Text.swift in Sources */,
 				44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */,
 				442ADC062CA5DE2400A79772 /* joinPhoto.swift in Sources */,
 				442ADC042CA5DA5200A79772 /* nickNameCheck.swift in Sources */,
