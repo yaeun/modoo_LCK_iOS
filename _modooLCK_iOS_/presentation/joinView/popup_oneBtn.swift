@@ -7,42 +7,64 @@
 
 import SwiftUI
 
-struct popup_oneBtn: View {
-    
+struct PopupOneBtn: View {
+    @Environment(\.presentationMode) var presentationMode
+    @State var title : String
+    @State var content : String
+    @Binding var isAlertPresented_Agree1: Bool
     var body: some View {
-        ZStack{
-            Rectangle()
-                .frame(width: 280,height: 513)
-                .background(Color(red: 0.95, green: 0.95, blue: 0.95))
-                .cornerRadius(12)
-                .overlay(
-                    VStack{
-                        Text("Title")
-                            .foregroundColor(.gray)
-                            .bold()
-                            .padding(.top,54)
-                            .padding(.bottom,36)
-                            .font(.system(size: 14, weight: .medium))
-                        
-                        ScrollView{
-                            Text("여기에 긴 텍스트가 들어갑니다. 이 텍스트는 스크롤을 통해 볼 수 있습니다. 여기에 긴 내용을 추가하여 스크롤 기능을 테스트합니다." +
-                                 " 추가적인 내용이 계속 이어집니다. 이 텍스트는 스크롤을 통해 볼 수 있는 영역에 위치하고 있습니다." +
-                                 " 계속해서 내용을 추가하여 길이를 늘려 보세요." +
-                                 " 이 텍스트는 스크롤을 통해 볼 수 있습니다." +
-                                 " 추가적인 내용이 계속 이어집니다." +
-                                 " 이 텍스트는 스크롤을 통해 볼 수 있는 영역에 위치하고 있습니다.")
-                            .foregroundColor(.gray)
-                            .font(.system(size: 14, weight: .medium))
-                            .frame(width: 230, height: 336)
-                        }
-                        Spacer()
-                    }
-                    
-                )
+        ZStack {
+            Color.black.opacity(0.8) 
+                .edgesIgnoringSafeArea(.all)
+            ZStack {
+                Rectangle()
+                    .frame(width: 280, height: 513)
+                    .background(Color(red: 0.95, green: 0.95, blue: 0.95))
+                    .overlay(popupContent)
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+            }
         }
+    }
+    // 팝업 내용
+    private var popupContent: some View {
+        VStack {
+            Text(title)
+                .foregroundColor(.gray)
+                .bold()
+                .padding(.top, 54)
+                .padding(.bottom, 24)
+                .font(.system(size: 14, weight: .medium))
+            
+            
+            ScrollView {
+                Text(content)
+                    .foregroundColor(.gray)
+                    .lineLimit(nil)
+                    .font(.system(size: 10))
+            }
+            .padding(.horizontal,25)
+            
+            Spacer()
+            
+            Button(action: {
+                presentationMode.wrappedValue.dismiss()
+                isAlertPresented_Agree1 = false
+            }) {
+                Rectangle()
+                    .frame(width: 300, height: 40)
+                    .foregroundColor(Color("#E3E4F2"))
+                    .overlay(
+                        Text("확인")
+                            .foregroundColor(.gray)
+                            .font(.system(size: 14, weight: .medium))
+                    )
+                
+            }
+            
+        }
+        
     }
 }
 
-#Preview {
-    popup_oneBtn()
-}
+
+

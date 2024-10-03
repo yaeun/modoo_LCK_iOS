@@ -11,8 +11,9 @@ struct joinAgreement: View {
     @State private var isCheckedAll: Bool = false
     @State private var isCheckedService: Bool = false
     @State private var isCheckedPrivacy: Bool = false
-    @State private var showingAlert: Bool = false
-    
+    @Binding var isAlertPresented_Agree1: Bool
+    @State private var isAlertPresented_1 = false
+    @ObservedObject var permitVM = PermitViewModel()
     var body: some View {
         ZStack {
             // 배경 이미지
@@ -29,14 +30,17 @@ struct joinAgreement: View {
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
                     .padding(.bottom,82)
 
-                AgreementList()
+                AgreementList(isAlertPresented_1:  $isAlertPresented_1)
                     .padding(.horizontal,60)
+                
                 
                 Spacer()
                         }//VStack
-            
+            if isAlertPresented_1 {
+                PopupOneBtn(title: "개인정보 처리방침 ( 필수 )", content: Privacy_Text.Privacy_Text_long, isAlertPresented_Agree1: $isAlertPresented_Agree1))
+                       }
                     }//ZStack
-        
+       
                 }
             }
         
@@ -44,5 +48,6 @@ struct joinAgreement: View {
            
 
 #Preview {
-    joinAgreement()
+    @Binding var isAlertPresented_Agree1: Bool
+    joinAgreement(isAlertPresented_Agree1: $isAlertPresented_Agree1)
 }

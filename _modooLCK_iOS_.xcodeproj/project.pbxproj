@@ -31,6 +31,7 @@
 		442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC082CA5DF6F00A79772 /* Teamselect.swift */; };
 		44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD782CAC47DE006EFDCC /* AgreementList.swift */; };
 		44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */; };
+		44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */; };
 		44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */; };
 		44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E88EFA2C90CC8500B5BDE5 /* ContentView.swift */; };
 		44E88EFD2C90CC8700B5BDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E88EFC2C90CC8700B5BDE5 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		442ADC082CA5DF6F00A79772 /* Teamselect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teamselect.swift; sourceTree = "<group>"; };
 		44C4DD782CAC47DE006EFDCC /* AgreementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementList.swift; sourceTree = "<group>"; };
 		44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermitViewModel.swift; sourceTree = "<group>"; };
+		44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy_Text.swift; sourceTree = "<group>"; };
 		44E88EF52C90CC8500B5BDE5 /* _modooLCK_iOS_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _modooLCK_iOS_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _modooLCK_iOS_App.swift; sourceTree = "<group>"; };
 		44E88EFA2C90CC8500B5BDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				44C4DD7C2CAC5BDD006EFDCC /* AgreementUI */,
 				442ADBFF2CA5C31D00A79772 /* popup_oneBtn.swift */,
+				44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */,
 				442ADC082CA5DF6F00A79772 /* Teamselect.swift */,
 				442ADC012CA5D56C00A79772 /* joinNickname.swift */,
 				442ADC032CA5DA5200A79772 /* nickNameCheck.swift */,
@@ -431,6 +434,7 @@
 				44172D392C9213E000765C26 /* myPageUserInfo.swift in Sources */,
 				44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */,
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
+				44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */,
 				44172D342C92106300765C26 /* Topbar_1.swift in Sources */,
 				44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */,
 				44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */,
