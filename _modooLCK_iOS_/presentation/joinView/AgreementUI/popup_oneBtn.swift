@@ -10,9 +10,9 @@ import SwiftUI
 struct PopupOneBtn: View {
     @State var title: String
     @State var content: String
-    @Binding var isAlertPresented_Agree1: Bool // 팝업 표시 상태
-    @Binding var isConfirmed: Bool // 확인 버튼이 눌렸는지 여부
-
+    @Binding var isAlertPresented_Agree1: Bool
+    @Binding var isConfirmed: Bool
+    
     var body: some View {
         ZStack {
             Color.black.opacity(0.8)
@@ -47,10 +47,9 @@ struct PopupOneBtn: View {
 
             Spacer()
 
-            // 확인 버튼
             Button(action: {
                 isAlertPresented_Agree1 = false // 팝업을 닫음
-                isConfirmed = true // 확인 버튼이 눌렸음을 표시
+                isConfirmed = true
             }) {
                 RoundedRectangle(cornerRadius: 8)
                     .frame(width: 280, height: 40)

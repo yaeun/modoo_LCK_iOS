@@ -11,7 +11,7 @@ import SwiftUI
 
 struct joinNickname: View {
     @Binding var nickname: String
-    @State private var validator = NicknameValidator() // Validator 인스턴스
+    @State private var validator = NicknameValidator()
     @State private var Checkednickname: Bool = false
     var body: some View {
         ZStack {
@@ -23,7 +23,7 @@ struct joinNickname: View {
             
             VStack {
                 // 상단바
-                Topbar_2(Title: "회원가입", SubTitle: "닉네임 입력")
+                Topbar_2(Title: "Title", SubTitle: "SubTitle", isArrowButtonEnabled: .constant(true))
                     .frame(height: 100)
                     .frame(maxWidth: .infinity)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)

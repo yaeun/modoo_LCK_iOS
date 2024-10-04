@@ -16,6 +16,7 @@ struct joinAgreement: View {
     @State private var isConfirmed_Agree1: Bool = false // 확인 버튼 눌림 상태
     @State private var isConfirmed_Agree2: Bool = false // 확인 버튼 눌림 상태
 
+    
     var body: some View {
         ZStack {
             
@@ -28,7 +29,7 @@ struct joinAgreement: View {
             VStack {
                 
                 //상단바
-                Topbar_2(Title: "회원가입", SubTitle: "사용 약관")
+                Topbar_2(Title: "Title", SubTitle: "SubTitle", isArrowButtonEnabled: .constant(true))
                     .frame(height: 100)
                     .frame(maxWidth: .infinity)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)

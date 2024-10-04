@@ -18,7 +18,7 @@ struct joinPhoto: View {
             
             VStack {
                 // 상단바
-                Topbar_2(Title: "회원가입", SubTitle: "프로필 사진 추가")
+                Topbar_2(Title: "Title", SubTitle: "SubTitle", isArrowButtonEnabled: .constant(true))
                     .frame(height: 100)
                     .frame(maxWidth: .infinity)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
