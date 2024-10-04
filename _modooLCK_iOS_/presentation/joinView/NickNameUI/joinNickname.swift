@@ -11,8 +11,9 @@ import SwiftUI
 
 struct joinNickname: View {
     @Binding var nickname: String
-    @State private var validator = NicknameValidator()
-    @State private var Checkednickname: Bool = false
+    @State var validator = NicknameValidator()
+    @State var Checkednickname: Bool = false
+    
     var body: some View {
         ZStack {
             // 배경 이미지
@@ -45,6 +46,15 @@ struct joinNickname: View {
                         .shadow(color: .white, radius: 4, x: 0, y: 0)
                 )
                 .padding(.vertical,100)
+                
+                // 유효성 검사 메시지 표시
+                             if !validator.validationMessages.isEmpty {
+                                 ForEach(validator.validationMessages, id: \.self) { message in
+                                     Text(message)
+                                         .foregroundColor(.red)
+                                         .padding(.top, 4)
+                                 }
+                             }
                 
                 Button(action: {
                     Checkednickname.toggle()

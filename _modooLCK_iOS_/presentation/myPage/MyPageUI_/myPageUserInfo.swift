@@ -42,16 +42,16 @@ struct myPageUserInfo: View {
                       .weight(.light)
                   )
                   .foregroundColor(.white)
-                  .padding(.top,8)
+                  
                 
                 Text(rank)
                   .font(
                     Font.custom("Cafe24 Ohsquare air OTF", size: 12)
                       .weight(.light)
                   )
-                  .kerning(0.12)
                   .foregroundColor(Color(red: 0.88, green: 0.65, blue: 0.05))
             }
+            .padding(.top,8)
         }
 
     }

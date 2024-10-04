@@ -17,6 +17,9 @@ struct MyPageUI: View {
                 .edgesIgnoringSafeArea(.all)
             VStack{
                 Topbar_single(Title: "MyPage")
+                    .frame(height: 50)
+                    .frame(maxWidth: .infinity)
+                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
                 
                 myPageUserInfo(nickname: "Deft 조아",rank: "Gold")
                 .padding(.vertical,60)
