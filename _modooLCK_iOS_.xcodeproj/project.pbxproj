@@ -36,6 +36,14 @@
 		446E4EA92CB0624C0067BEBA /* MyProfileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */; };
 		446E4EAC2CB062F50067BEBA /* accountOutUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EAB2CB062F50067BEBA /* accountOutUI.swift */; };
 		446E4EAE2CB063800067BEBA /* Account_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EAD2CB063800067BEBA /* Account_Text.swift */; };
+		4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */; };
+		4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */; };
+		4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */; };
+		4484F9B42CB1A7EE00B06408 /* logoCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B32CB1A7EE00B06408 /* logoCell_2.swift */; };
+		4484F9B62CB1A80100B06408 /* MyViewingPartyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B52CB1A80100B06408 /* MyViewingPartyUI.swift */; };
+		4484F9B92CB1AE0500B06408 /* infomationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B82CB1AE0500B06408 /* infomationUI.swift */; };
+		4484F9BB2CB1AF8300B06408 /* PrivacyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9BA2CB1AF8300B06408 /* PrivacyUI.swift */; };
+		4484F9BD2CB1B07D00B06408 /* ServiceUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9BC2CB1B07D00B06408 /* ServiceUI.swift */; };
 		44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD782CAC47DE006EFDCC /* AgreementList.swift */; };
 		44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */; };
 		44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */; };
@@ -99,6 +107,14 @@
 		446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileMenu.swift; sourceTree = "<group>"; };
 		446E4EAB2CB062F50067BEBA /* accountOutUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountOutUI.swift; sourceTree = "<group>"; };
 		446E4EAD2CB063800067BEBA /* Account_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_Text.swift; sourceTree = "<group>"; };
+		4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_1.swift; sourceTree = "<group>"; };
+		4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_roundText.swift; sourceTree = "<group>"; };
+		4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyPost&MyCommentUI.swift"; sourceTree = "<group>"; };
+		4484F9B32CB1A7EE00B06408 /* logoCell_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_2.swift; sourceTree = "<group>"; };
+		4484F9B52CB1A80100B06408 /* MyViewingPartyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewingPartyUI.swift; sourceTree = "<group>"; };
+		4484F9B82CB1AE0500B06408 /* infomationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infomationUI.swift; sourceTree = "<group>"; };
+		4484F9BA2CB1AF8300B06408 /* PrivacyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyUI.swift; sourceTree = "<group>"; };
+		4484F9BC2CB1B07D00B06408 /* ServiceUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUI.swift; sourceTree = "<group>"; };
 		44C4DD782CAC47DE006EFDCC /* AgreementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementList.swift; sourceTree = "<group>"; };
 		44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermitViewModel.swift; sourceTree = "<group>"; };
 		44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy_Text.swift; sourceTree = "<group>"; };
@@ -164,6 +180,9 @@
 		44172D2C2C920FEE00765C26 /* myPage */ = {
 			isa = PBXGroup;
 			children = (
+				4484F9B72CB1ADDF00B06408 /* Information */,
+				4484F9B22CB1A7D200B06408 /* MyViewingParty */,
+				4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */,
 				446E4EAA2CB062DC0067BEBA /* AccountOut */,
 				446E4EA32CB05E990067BEBA /* MyProfile */,
 				446E4EA22CB05E810067BEBA /* MyPageUI_ */,
@@ -230,6 +249,35 @@
 				446E4EAD2CB063800067BEBA /* Account_Text.swift */,
 			);
 			path = AccountOut;
+			sourceTree = "<group>";
+		};
+		4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */ = {
+			isa = PBXGroup;
+			children = (
+				4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */,
+				4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */,
+				4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */,
+			);
+			path = "MyPost&MyComment";
+			sourceTree = "<group>";
+		};
+		4484F9B22CB1A7D200B06408 /* MyViewingParty */ = {
+			isa = PBXGroup;
+			children = (
+				4484F9B32CB1A7EE00B06408 /* logoCell_2.swift */,
+				4484F9B52CB1A80100B06408 /* MyViewingPartyUI.swift */,
+			);
+			path = MyViewingParty;
+			sourceTree = "<group>";
+		};
+		4484F9B72CB1ADDF00B06408 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				4484F9B82CB1AE0500B06408 /* infomationUI.swift */,
+				4484F9BA2CB1AF8300B06408 /* PrivacyUI.swift */,
+				4484F9BC2CB1B07D00B06408 /* ServiceUI.swift */,
+			);
+			path = Information;
 			sourceTree = "<group>";
 		};
 		44C4DD7C2CAC5BDD006EFDCC /* AgreementUI */ = {
@@ -474,10 +522,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E88F322C90CE6800B5BDE5 /* homeTopbar.swift in Sources */,
+				4484F9BD2CB1B07D00B06408 /* ServiceUI.swift in Sources */,
 				446E4EA52CB05EC70067BEBA /* MyProfileUI.swift in Sources */,
 				446E4EAE2CB063800067BEBA /* Account_Text.swift in Sources */,
 				44E88F302C90CE6800B5BDE5 /* homeResult.swift in Sources */,
 				44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */,
+				4484F9B42CB1A7EE00B06408 /* logoCell_2.swift in Sources */,
 				44172D352C92106300765C26 /* Topbar_2.swift in Sources */,
 				44E88F2C2C90CE6800B5BDE5 /* homeMatch.swift in Sources */,
 				44172D1C2C918A6B00765C26 /* LoginUI.swift in Sources */,
@@ -485,11 +535,13 @@
 				446E4EA92CB0624C0067BEBA /* MyProfileMenu.swift in Sources */,
 				44172D2B2C920BDE00765C26 /* KakaoAuthVM.swift in Sources */,
 				44172D3B2C9215A200765C26 /* myPageMenu.swift in Sources */,
+				4484F9BB2CB1AF8300B06408 /* PrivacyUI.swift in Sources */,
 				44E88F2F2C90CE6800B5BDE5 /* homeButtonEtc.swift in Sources */,
 				44172D2E2C92100E00765C26 /* MyPageUI.swift in Sources */,
 				442ADBFC2CA5B72300A79772 /* joinAgreement.swift in Sources */,
 				44172D392C9213E000765C26 /* myPageUserInfo.swift in Sources */,
 				446E4EA72CB05F410067BEBA /* RankUI.swift in Sources */,
+				4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */,
 				44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */,
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
 				44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */,
@@ -498,12 +550,16 @@
 				44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */,
 				442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */,
 				442ADBFE2CA5B7D000A79772 /* radioBtn.swift in Sources */,
+				4484F9B92CB1AE0500B06408 /* infomationUI.swift in Sources */,
+				4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */,
 				4422BAF42CAF01F8002F1132 /* Service_Text.swift in Sources */,
 				44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */,
 				442ADC062CA5DE2400A79772 /* joinPhoto.swift in Sources */,
 				442ADC042CA5DA5200A79772 /* nickNameCheck.swift in Sources */,
 				44172D332C92106300765C26 /* Topbar_3.swift in Sources */,
 				44E88F2D2C90CE6800B5BDE5 /* homeResultCell.swift in Sources */,
+				4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */,
+				4484F9B62CB1A80100B06408 /* MyViewingPartyUI.swift in Sources */,
 				442ADC092CA5DF6F00A79772 /* joinTeam.swift in Sources */,
 				446E4EAC2CB062F50067BEBA /* accountOutUI.swift in Sources */,
 				442ADC002CA5C31D00A79772 /* popup_oneBtn.swift in Sources */,
