@@ -36,6 +36,15 @@
 		446E4EA92CB0624C0067BEBA /* MyProfileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */; };
 		446E4EAC2CB062F50067BEBA /* accountOutUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EAB2CB062F50067BEBA /* accountOutUI.swift */; };
 		446E4EAE2CB063800067BEBA /* Account_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EAD2CB063800067BEBA /* Account_Text.swift */; };
+		447130BB2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */; };
+		447130BC2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */; };
+		447130BD2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */; };
+		447130BF2CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */; };
+		447130C02CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */; };
+		447130C12CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */; };
+		447130C32CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
+		447130C42CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
+		447130C52CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
 		4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */; };
 		4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */; };
 		4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */; };
@@ -107,6 +116,9 @@
 		446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileMenu.swift; sourceTree = "<group>"; };
 		446E4EAB2CB062F50067BEBA /* accountOutUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountOutUI.swift; sourceTree = "<group>"; };
 		446E4EAD2CB063800067BEBA /* Account_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_Text.swift; sourceTree = "<group>"; };
+		447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24OhsquareAir-v2.0.otf"; sourceTree = "<group>"; };
+		447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24Ohsquare-v2.0.otf"; sourceTree = "<group>"; };
+		447130C22CB287000068207A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_1.swift; sourceTree = "<group>"; };
 		4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_roundText.swift; sourceTree = "<group>"; };
 		4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyPost&MyCommentUI.swift"; sourceTree = "<group>"; };
@@ -251,6 +263,24 @@
 			path = AccountOut;
 			sourceTree = "<group>";
 		};
+		447130B82CB285190068207A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				447130B92CB2852A0068207A /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		447130B92CB2852A0068207A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */,
+				447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */,
+				447130C22CB287000068207A /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +347,7 @@
 		44E88EF72C90CC8500B5BDE5 /* _modooLCK_iOS_ */ = {
 			isa = PBXGroup;
 			children = (
+				447130B82CB285190068207A /* Resource */,
 				44172D282C918D2300765C26 /* -modooLCK-iOS--Info.plist */,
 				44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */,
 				44E88F222C90CE5300B5BDE5 /* presentation */,
@@ -495,8 +526,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4422BAF62CAF10CD002F1132 /* Launch Screen.storyboard in Resources */,
+				447130BB2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */,
 				44E88F002C90CC8700B5BDE5 /* Preview Assets.xcassets in Resources */,
 				44E88EFD2C90CC8700B5BDE5 /* Assets.xcassets in Resources */,
+				447130BF2CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +537,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130C02CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */,
+				447130BC2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +546,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130C12CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */,
+				447130BD2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +590,7 @@
 				4484F9B92CB1AE0500B06408 /* infomationUI.swift in Sources */,
 				4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */,
 				4422BAF42CAF01F8002F1132 /* Service_Text.swift in Sources */,
+				447130C32CB287000068207A /* Font.swift in Sources */,
 				44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */,
 				442ADC062CA5DE2400A79772 /* joinPhoto.swift in Sources */,
 				442ADC042CA5DA5200A79772 /* nickNameCheck.swift in Sources */,
@@ -572,6 +610,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130C42CB287000068207A /* Font.swift in Sources */,
 				44E88F0A2C90CC8700B5BDE5 /* _modooLCK_iOS_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +621,7 @@
 			files = (
 				44E88F162C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift in Sources */,
 				44E88F142C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift in Sources */,
+				447130C52CB287000068207A /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
