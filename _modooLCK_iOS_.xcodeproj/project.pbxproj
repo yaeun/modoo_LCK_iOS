@@ -51,6 +51,15 @@
 		447130CC2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
 		447130CD2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
 		447130CE2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
+		447130D32CB2B3CC0068207A /* detailTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130D22CB2B3CC0068207A /* detailTopbar.swift */; };
+		447130D42CB2B3CC0068207A /* detailTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130D22CB2B3CC0068207A /* detailTopbar.swift */; };
+		447130D52CB2B3CC0068207A /* detailTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130D22CB2B3CC0068207A /* detailTopbar.swift */; };
+		447130DB2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */; };
+		447130DC2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */; };
+		447130DD2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */; };
+		447130DF2CB2B8E30068207A /* postMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DE2CB2B8E30068207A /* postMenu.swift */; };
+		447130E02CB2B8E30068207A /* postMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DE2CB2B8E30068207A /* postMenu.swift */; };
+		447130E12CB2B8E30068207A /* postMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DE2CB2B8E30068207A /* postMenu.swift */; };
 		4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */; };
 		4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */; };
 		4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */; };
@@ -127,6 +136,9 @@
 		447130C22CB287000068207A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		447130C72CB28D010068207A /* CommunityUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityUI.swift; sourceTree = "<group>"; };
 		447130CB2CB2ADEC0068207A /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
+		447130D22CB2B3CC0068207A /* detailTopbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailTopbar.swift; sourceTree = "<group>"; };
+		447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostUI.swift; sourceTree = "<group>"; };
+		447130DE2CB2B8E30068207A /* postMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postMenu.swift; sourceTree = "<group>"; };
 		4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_1.swift; sourceTree = "<group>"; };
 		4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_roundText.swift; sourceTree = "<group>"; };
 		4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyPost&MyCommentUI.swift"; sourceTree = "<group>"; };
@@ -292,10 +304,37 @@
 		447130C62CB28CE60068207A /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				447130D12CB2B3A90068207A /* CommunityPost */,
+				447130D02CB2B3950068207A /* CommunityDetail */,
+				447130CF2CB2B3830068207A /* CommunityList */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		447130CF2CB2B3830068207A /* CommunityList */ = {
+			isa = PBXGroup;
+			children = (
 				447130C72CB28D010068207A /* CommunityUI.swift */,
 				447130CB2CB2ADEC0068207A /* CommunityCell.swift */,
 			);
-			path = Community;
+			path = CommunityList;
+			sourceTree = "<group>";
+		};
+		447130D02CB2B3950068207A /* CommunityDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommunityDetail;
+			sourceTree = "<group>";
+		};
+		447130D12CB2B3A90068207A /* CommunityPost */ = {
+			isa = PBXGroup;
+			children = (
+				447130D22CB2B3CC0068207A /* detailTopbar.swift */,
+				447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */,
+				447130DE2CB2B8E30068207A /* postMenu.swift */,
+			);
+			path = CommunityPost;
 			sourceTree = "<group>";
 		};
 		4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */ = {
@@ -600,11 +639,13 @@
 				4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */,
 				44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */,
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
+				447130D32CB2B3CC0068207A /* detailTopbar.swift in Sources */,
 				447130C82CB28D010068207A /* CommunityUI.swift in Sources */,
 				44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */,
 				44172D342C92106300765C26 /* Topbar_1.swift in Sources */,
 				44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */,
 				44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */,
+				447130DF2CB2B8E30068207A /* postMenu.swift in Sources */,
 				442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */,
 				442ADBFE2CA5B7D000A79772 /* radioBtn.swift in Sources */,
 				4484F9B92CB1AE0500B06408 /* infomationUI.swift in Sources */,
@@ -619,6 +660,7 @@
 				4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */,
 				4484F9B62CB1A80100B06408 /* MyViewingPartyUI.swift in Sources */,
 				442ADC092CA5DF6F00A79772 /* joinTeam.swift in Sources */,
+				447130DB2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */,
 				446E4EAC2CB062F50067BEBA /* accountOutUI.swift in Sources */,
 				442ADC002CA5C31D00A79772 /* popup_oneBtn.swift in Sources */,
 				442ADC022CA5D56C00A79772 /* joinNickname.swift in Sources */,
@@ -631,9 +673,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				447130C42CB287000068207A /* Font.swift in Sources */,
+				447130D42CB2B3CC0068207A /* detailTopbar.swift in Sources */,
+				447130E02CB2B8E30068207A /* postMenu.swift in Sources */,
 				44E88F0A2C90CC8700B5BDE5 /* _modooLCK_iOS_Tests.swift in Sources */,
 				447130C92CB28D010068207A /* CommunityUI.swift in Sources */,
 				447130CD2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
+				447130DC2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,8 +686,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130D52CB2B3CC0068207A /* detailTopbar.swift in Sources */,
 				44E88F162C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift in Sources */,
+				447130DD2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */,
 				447130CE2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
+				447130E12CB2B8E30068207A /* postMenu.swift in Sources */,
 				44E88F142C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift in Sources */,
 				447130C52CB287000068207A /* Font.swift in Sources */,
 				447130CA2CB28D010068207A /* CommunityUI.swift in Sources */,
