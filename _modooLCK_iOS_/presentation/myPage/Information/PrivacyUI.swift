@@ -23,7 +23,7 @@ struct PrivacyUI: View {
                     .padding(.bottom,40)
                 
                 Text("개인정보 처리방침")
-                    .font(.Cafe24Air)
+                    .font(.Cafe24_20)
                     .foregroundColor(.white)
                     .frame(width: 296, alignment: .leading)
                     .padding(.bottom,32)

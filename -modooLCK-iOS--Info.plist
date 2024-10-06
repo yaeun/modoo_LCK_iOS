@@ -4,8 +4,8 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Cafe24OhaquareAir-v2.0.otf</string>
-		<string>Cafe24Ohaquare-v2.0.otf</string>
+		<string>Cafe24OhsquareAir-v2.0.otf</string>
+		<string>Cafe24Ohsquare-v2.0.otf</string>
 	</array>
 	<key>CFBundleURLTypes</key>
 	<array>

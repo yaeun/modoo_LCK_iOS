@@ -45,6 +45,12 @@
 		447130C32CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
 		447130C42CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
 		447130C52CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
+		447130C82CB28D010068207A /* CommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C72CB28D010068207A /* CommunityUI.swift */; };
+		447130C92CB28D010068207A /* CommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C72CB28D010068207A /* CommunityUI.swift */; };
+		447130CA2CB28D010068207A /* CommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C72CB28D010068207A /* CommunityUI.swift */; };
+		447130CC2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
+		447130CD2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
+		447130CE2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
 		4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */; };
 		4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */; };
 		4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */; };
@@ -119,6 +125,8 @@
 		447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24OhsquareAir-v2.0.otf"; sourceTree = "<group>"; };
 		447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24Ohsquare-v2.0.otf"; sourceTree = "<group>"; };
 		447130C22CB287000068207A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		447130C72CB28D010068207A /* CommunityUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityUI.swift; sourceTree = "<group>"; };
+		447130CB2CB2ADEC0068207A /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
 		4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_1.swift; sourceTree = "<group>"; };
 		4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_roundText.swift; sourceTree = "<group>"; };
 		4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyPost&MyCommentUI.swift"; sourceTree = "<group>"; };
@@ -281,6 +289,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		447130C62CB28CE60068207A /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				447130C72CB28D010068207A /* CommunityUI.swift */,
+				447130CB2CB2ADEC0068207A /* CommunityCell.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
 		4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +403,7 @@
 		44E88F222C90CE5300B5BDE5 /* presentation */ = {
 			isa = PBXGroup;
 			children = (
+				447130C62CB28CE60068207A /* Community */,
 				442ADBFA2CA5B61B00A79772 /* joinView */,
 				44172D2F2C92105600765C26 /* Entension */,
 				44172D2C2C920FEE00765C26 /* myPage */,
@@ -570,6 +588,7 @@
 				44172D1C2C918A6B00765C26 /* LoginUI.swift in Sources */,
 				44172D372C92109800765C26 /* Topbar_single.swift in Sources */,
 				446E4EA92CB0624C0067BEBA /* MyProfileMenu.swift in Sources */,
+				447130CC2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
 				44172D2B2C920BDE00765C26 /* KakaoAuthVM.swift in Sources */,
 				44172D3B2C9215A200765C26 /* myPageMenu.swift in Sources */,
 				4484F9BB2CB1AF8300B06408 /* PrivacyUI.swift in Sources */,
@@ -581,6 +600,7 @@
 				4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */,
 				44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */,
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
+				447130C82CB28D010068207A /* CommunityUI.swift in Sources */,
 				44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */,
 				44172D342C92106300765C26 /* Topbar_1.swift in Sources */,
 				44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */,
@@ -612,6 +632,8 @@
 			files = (
 				447130C42CB287000068207A /* Font.swift in Sources */,
 				44E88F0A2C90CC8700B5BDE5 /* _modooLCK_iOS_Tests.swift in Sources */,
+				447130C92CB28D010068207A /* CommunityUI.swift in Sources */,
+				447130CD2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,8 +642,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E88F162C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift in Sources */,
+				447130CE2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
 				44E88F142C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift in Sources */,
 				447130C52CB287000068207A /* Font.swift in Sources */,
+				447130CA2CB28D010068207A /* CommunityUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

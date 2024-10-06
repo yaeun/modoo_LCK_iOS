@@ -22,7 +22,7 @@ struct MyPageUI: View {
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
                 
                 myPageUserInfo(nickname: "Deft 조아",rank: "Gold")
-                .padding(.vertical,60)
+                .padding(.vertical,30)
                 
                 myPageMenu()
                 }
