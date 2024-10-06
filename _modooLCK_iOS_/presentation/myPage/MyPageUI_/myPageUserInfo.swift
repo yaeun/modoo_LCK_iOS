@@ -30,28 +30,22 @@ struct myPageUserInfo: View {
                 )
             
             Text(nickname)
-                .font(Font.custom("Cafe24 Ohsquare", size: 20))
+                .font(.Cafe24_20)
                 .kerning(0.2)
                 .foregroundColor(Color(red: 0.89, green: 0.89, blue: 0.95))
                 .padding(.top,12)
             
             HStack(alignment:.center){
                 Text("My Tier | ")
-                  .font(
-                    Font.custom("Cafe24 Ohsquare air OTF", size: 12)
-                      .weight(.light)
-                  )
+                    .font(.Cafe24Air_12)
                   .foregroundColor(.white)
-                  .padding(.top,8)
+                  
                 
                 Text(rank)
-                  .font(
-                    Font.custom("Cafe24 Ohsquare air OTF", size: 12)
-                      .weight(.light)
-                  )
-                  .kerning(0.12)
-                  .foregroundColor(Color(red: 0.88, green: 0.65, blue: 0.05))
+                    .font(.Cafe24Air_12)
+                    .foregroundColor(Color(red: 0.88, green: 0.65, blue: 0.05))
             }
+            .padding(.top,8)
         }
 
     }

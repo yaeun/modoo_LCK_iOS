@@ -42,6 +42,7 @@ struct homeMatch: View {
                             //.padding(.trailing,44)
                     }
                     .padding(.bottom,20)
+                    .frame(width:300)
                     
                     HStack{
                         homePolygon(teamColor: Color("#AA8B30"))

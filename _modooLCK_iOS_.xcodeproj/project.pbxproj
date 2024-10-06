@@ -31,6 +31,43 @@
 		442ADC062CA5DE2400A79772 /* joinPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC052CA5DE2400A79772 /* joinPhoto.swift */; };
 		442ADC092CA5DF6F00A79772 /* joinTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC072CA5DF6C00A79772 /* joinTeam.swift */; };
 		442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442ADC082CA5DF6F00A79772 /* Teamselect.swift */; };
+		446E4EA52CB05EC70067BEBA /* MyProfileUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EA42CB05EC70067BEBA /* MyProfileUI.swift */; };
+		446E4EA72CB05F410067BEBA /* RankUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EA62CB05F410067BEBA /* RankUI.swift */; };
+		446E4EA92CB0624C0067BEBA /* MyProfileMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */; };
+		446E4EAC2CB062F50067BEBA /* accountOutUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EAB2CB062F50067BEBA /* accountOutUI.swift */; };
+		446E4EAE2CB063800067BEBA /* Account_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E4EAD2CB063800067BEBA /* Account_Text.swift */; };
+		447130BB2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */; };
+		447130BC2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */; };
+		447130BD2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */; };
+		447130BF2CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */; };
+		447130C02CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */; };
+		447130C12CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */; };
+		447130C32CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
+		447130C42CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
+		447130C52CB287000068207A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C22CB287000068207A /* Font.swift */; };
+		447130C82CB28D010068207A /* CommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C72CB28D010068207A /* CommunityUI.swift */; };
+		447130C92CB28D010068207A /* CommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C72CB28D010068207A /* CommunityUI.swift */; };
+		447130CA2CB28D010068207A /* CommunityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130C72CB28D010068207A /* CommunityUI.swift */; };
+		447130CC2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
+		447130CD2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
+		447130CE2CB2ADEC0068207A /* CommunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130CB2CB2ADEC0068207A /* CommunityCell.swift */; };
+		447130D32CB2B3CC0068207A /* detailTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130D22CB2B3CC0068207A /* detailTopbar.swift */; };
+		447130D42CB2B3CC0068207A /* detailTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130D22CB2B3CC0068207A /* detailTopbar.swift */; };
+		447130D52CB2B3CC0068207A /* detailTopbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130D22CB2B3CC0068207A /* detailTopbar.swift */; };
+		447130DB2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */; };
+		447130DC2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */; };
+		447130DD2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */; };
+		447130DF2CB2B8E30068207A /* postMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DE2CB2B8E30068207A /* postMenu.swift */; };
+		447130E02CB2B8E30068207A /* postMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DE2CB2B8E30068207A /* postMenu.swift */; };
+		447130E12CB2B8E30068207A /* postMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447130DE2CB2B8E30068207A /* postMenu.swift */; };
+		4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */; };
+		4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */; };
+		4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */; };
+		4484F9B42CB1A7EE00B06408 /* logoCell_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B32CB1A7EE00B06408 /* logoCell_2.swift */; };
+		4484F9B62CB1A80100B06408 /* MyViewingPartyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B52CB1A80100B06408 /* MyViewingPartyUI.swift */; };
+		4484F9B92CB1AE0500B06408 /* infomationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9B82CB1AE0500B06408 /* infomationUI.swift */; };
+		4484F9BB2CB1AF8300B06408 /* PrivacyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9BA2CB1AF8300B06408 /* PrivacyUI.swift */; };
+		4484F9BD2CB1B07D00B06408 /* ServiceUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484F9BC2CB1B07D00B06408 /* ServiceUI.swift */; };
 		44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD782CAC47DE006EFDCC /* AgreementList.swift */; };
 		44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */; };
 		44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */; };
@@ -89,6 +126,27 @@
 		442ADC052CA5DE2400A79772 /* joinPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joinPhoto.swift; sourceTree = "<group>"; };
 		442ADC072CA5DF6C00A79772 /* joinTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = joinTeam.swift; sourceTree = "<group>"; };
 		442ADC082CA5DF6F00A79772 /* Teamselect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teamselect.swift; sourceTree = "<group>"; };
+		446E4EA42CB05EC70067BEBA /* MyProfileUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileUI.swift; sourceTree = "<group>"; };
+		446E4EA62CB05F410067BEBA /* RankUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankUI.swift; sourceTree = "<group>"; };
+		446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileMenu.swift; sourceTree = "<group>"; };
+		446E4EAB2CB062F50067BEBA /* accountOutUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountOutUI.swift; sourceTree = "<group>"; };
+		446E4EAD2CB063800067BEBA /* Account_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account_Text.swift; sourceTree = "<group>"; };
+		447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24OhsquareAir-v2.0.otf"; sourceTree = "<group>"; };
+		447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24Ohsquare-v2.0.otf"; sourceTree = "<group>"; };
+		447130C22CB287000068207A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		447130C72CB28D010068207A /* CommunityUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityUI.swift; sourceTree = "<group>"; };
+		447130CB2CB2ADEC0068207A /* CommunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCell.swift; sourceTree = "<group>"; };
+		447130D22CB2B3CC0068207A /* detailTopbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailTopbar.swift; sourceTree = "<group>"; };
+		447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPostUI.swift; sourceTree = "<group>"; };
+		447130DE2CB2B8E30068207A /* postMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postMenu.swift; sourceTree = "<group>"; };
+		4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_1.swift; sourceTree = "<group>"; };
+		4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_roundText.swift; sourceTree = "<group>"; };
+		4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyPost&MyCommentUI.swift"; sourceTree = "<group>"; };
+		4484F9B32CB1A7EE00B06408 /* logoCell_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoCell_2.swift; sourceTree = "<group>"; };
+		4484F9B52CB1A80100B06408 /* MyViewingPartyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewingPartyUI.swift; sourceTree = "<group>"; };
+		4484F9B82CB1AE0500B06408 /* infomationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infomationUI.swift; sourceTree = "<group>"; };
+		4484F9BA2CB1AF8300B06408 /* PrivacyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyUI.swift; sourceTree = "<group>"; };
+		4484F9BC2CB1B07D00B06408 /* ServiceUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceUI.swift; sourceTree = "<group>"; };
 		44C4DD782CAC47DE006EFDCC /* AgreementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementList.swift; sourceTree = "<group>"; };
 		44C4DD7A2CAC480C006EFDCC /* PermitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermitViewModel.swift; sourceTree = "<group>"; };
 		44C4DD7F2CAC6187006EFDCC /* Privacy_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy_Text.swift; sourceTree = "<group>"; };
@@ -154,9 +212,12 @@
 		44172D2C2C920FEE00765C26 /* myPage */ = {
 			isa = PBXGroup;
 			children = (
-				44172D2D2C92100E00765C26 /* MyPageUI.swift */,
-				44172D382C9213E000765C26 /* myPageUserInfo.swift */,
-				44172D3A2C9215A200765C26 /* myPageMenu.swift */,
+				4484F9B72CB1ADDF00B06408 /* Information */,
+				4484F9B22CB1A7D200B06408 /* MyViewingParty */,
+				4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */,
+				446E4EAA2CB062DC0067BEBA /* AccountOut */,
+				446E4EA32CB05E990067BEBA /* MyProfile */,
+				446E4EA22CB05E810067BEBA /* MyPageUI_ */,
 			);
 			path = myPage;
 			sourceTree = "<group>";
@@ -175,14 +236,134 @@
 		442ADBFA2CA5B61B00A79772 /* joinView */ = {
 			isa = PBXGroup;
 			children = (
+				446E4EA12CB051F60067BEBA /* NickNameUI */,
 				44C4DD7C2CAC5BDD006EFDCC /* AgreementUI */,
 				442ADC082CA5DF6F00A79772 /* Teamselect.swift */,
-				442ADC012CA5D56C00A79772 /* joinNickname.swift */,
-				442ADC032CA5DA5200A79772 /* nickNameCheck.swift */,
 				442ADC052CA5DE2400A79772 /* joinPhoto.swift */,
 				442ADC072CA5DF6C00A79772 /* joinTeam.swift */,
 			);
 			path = joinView;
+			sourceTree = "<group>";
+		};
+		446E4EA12CB051F60067BEBA /* NickNameUI */ = {
+			isa = PBXGroup;
+			children = (
+				442ADC012CA5D56C00A79772 /* joinNickname.swift */,
+				442ADC032CA5DA5200A79772 /* nickNameCheck.swift */,
+			);
+			path = NickNameUI;
+			sourceTree = "<group>";
+		};
+		446E4EA22CB05E810067BEBA /* MyPageUI_ */ = {
+			isa = PBXGroup;
+			children = (
+				44172D2D2C92100E00765C26 /* MyPageUI.swift */,
+				44172D382C9213E000765C26 /* myPageUserInfo.swift */,
+				44172D3A2C9215A200765C26 /* myPageMenu.swift */,
+			);
+			path = MyPageUI_;
+			sourceTree = "<group>";
+		};
+		446E4EA32CB05E990067BEBA /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				446E4EA42CB05EC70067BEBA /* MyProfileUI.swift */,
+				446E4EA62CB05F410067BEBA /* RankUI.swift */,
+				446E4EA82CB0624C0067BEBA /* MyProfileMenu.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		446E4EAA2CB062DC0067BEBA /* AccountOut */ = {
+			isa = PBXGroup;
+			children = (
+				446E4EAB2CB062F50067BEBA /* accountOutUI.swift */,
+				446E4EAD2CB063800067BEBA /* Account_Text.swift */,
+			);
+			path = AccountOut;
+			sourceTree = "<group>";
+		};
+		447130B82CB285190068207A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				447130B92CB2852A0068207A /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		447130B92CB2852A0068207A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				447130BA2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf */,
+				447130BE2CB285610068207A /* Cafe24Ohsquare-v2.0.otf */,
+				447130C22CB287000068207A /* Font.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		447130C62CB28CE60068207A /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				447130D12CB2B3A90068207A /* CommunityPost */,
+				447130D02CB2B3950068207A /* CommunityDetail */,
+				447130CF2CB2B3830068207A /* CommunityList */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		447130CF2CB2B3830068207A /* CommunityList */ = {
+			isa = PBXGroup;
+			children = (
+				447130C72CB28D010068207A /* CommunityUI.swift */,
+				447130CB2CB2ADEC0068207A /* CommunityCell.swift */,
+			);
+			path = CommunityList;
+			sourceTree = "<group>";
+		};
+		447130D02CB2B3950068207A /* CommunityDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommunityDetail;
+			sourceTree = "<group>";
+		};
+		447130D12CB2B3A90068207A /* CommunityPost */ = {
+			isa = PBXGroup;
+			children = (
+				447130D22CB2B3CC0068207A /* detailTopbar.swift */,
+				447130DA2CB2B6FB0068207A /* CommunityPostUI.swift */,
+				447130DE2CB2B8E30068207A /* postMenu.swift */,
+			);
+			path = CommunityPost;
+			sourceTree = "<group>";
+		};
+		4484F9AB2CB19CBD00B06408 /* MyPost&MyComment */ = {
+			isa = PBXGroup;
+			children = (
+				4484F9AC2CB19D0F00B06408 /* logoCell_1.swift */,
+				4484F9AE2CB19DA300B06408 /* logoCell_roundText.swift */,
+				4484F9B02CB1A2AF00B06408 /* MyPost&MyCommentUI.swift */,
+			);
+			path = "MyPost&MyComment";
+			sourceTree = "<group>";
+		};
+		4484F9B22CB1A7D200B06408 /* MyViewingParty */ = {
+			isa = PBXGroup;
+			children = (
+				4484F9B32CB1A7EE00B06408 /* logoCell_2.swift */,
+				4484F9B52CB1A80100B06408 /* MyViewingPartyUI.swift */,
+			);
+			path = MyViewingParty;
+			sourceTree = "<group>";
+		};
+		4484F9B72CB1ADDF00B06408 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				4484F9B82CB1AE0500B06408 /* infomationUI.swift */,
+				4484F9BA2CB1AF8300B06408 /* PrivacyUI.swift */,
+				4484F9BC2CB1B07D00B06408 /* ServiceUI.swift */,
+			);
+			path = Information;
 			sourceTree = "<group>";
 		};
 		44C4DD7C2CAC5BDD006EFDCC /* AgreementUI */ = {
@@ -222,6 +403,7 @@
 		44E88EF72C90CC8500B5BDE5 /* _modooLCK_iOS_ */ = {
 			isa = PBXGroup;
 			children = (
+				447130B82CB285190068207A /* Resource */,
 				44172D282C918D2300765C26 /* -modooLCK-iOS--Info.plist */,
 				44E88EF82C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift */,
 				44E88F222C90CE5300B5BDE5 /* presentation */,
@@ -260,6 +442,7 @@
 		44E88F222C90CE5300B5BDE5 /* presentation */ = {
 			isa = PBXGroup;
 			children = (
+				447130C62CB28CE60068207A /* Community */,
 				442ADBFA2CA5B61B00A79772 /* joinView */,
 				44172D2F2C92105600765C26 /* Entension */,
 				44172D2C2C920FEE00765C26 /* myPage */,
@@ -400,8 +583,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4422BAF62CAF10CD002F1132 /* Launch Screen.storyboard in Resources */,
+				447130BB2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */,
 				44E88F002C90CC8700B5BDE5 /* Preview Assets.xcassets in Resources */,
 				44E88EFD2C90CC8700B5BDE5 /* Assets.xcassets in Resources */,
+				447130BF2CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +594,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130C02CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */,
+				447130BC2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +603,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130C12CB285610068207A /* Cafe24Ohsquare-v2.0.otf in Resources */,
+				447130BD2CB285500068207A /* Cafe24OhsquareAir-v2.0.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,33 +616,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E88F322C90CE6800B5BDE5 /* homeTopbar.swift in Sources */,
+				4484F9BD2CB1B07D00B06408 /* ServiceUI.swift in Sources */,
+				446E4EA52CB05EC70067BEBA /* MyProfileUI.swift in Sources */,
+				446E4EAE2CB063800067BEBA /* Account_Text.swift in Sources */,
 				44E88F302C90CE6800B5BDE5 /* homeResult.swift in Sources */,
 				44C4DD792CAC47DE006EFDCC /* AgreementList.swift in Sources */,
+				4484F9B42CB1A7EE00B06408 /* logoCell_2.swift in Sources */,
 				44172D352C92106300765C26 /* Topbar_2.swift in Sources */,
 				44E88F2C2C90CE6800B5BDE5 /* homeMatch.swift in Sources */,
 				44172D1C2C918A6B00765C26 /* LoginUI.swift in Sources */,
 				44172D372C92109800765C26 /* Topbar_single.swift in Sources */,
+				446E4EA92CB0624C0067BEBA /* MyProfileMenu.swift in Sources */,
+				447130CC2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
 				44172D2B2C920BDE00765C26 /* KakaoAuthVM.swift in Sources */,
 				44172D3B2C9215A200765C26 /* myPageMenu.swift in Sources */,
+				4484F9BB2CB1AF8300B06408 /* PrivacyUI.swift in Sources */,
 				44E88F2F2C90CE6800B5BDE5 /* homeButtonEtc.swift in Sources */,
 				44172D2E2C92100E00765C26 /* MyPageUI.swift in Sources */,
 				442ADBFC2CA5B72300A79772 /* joinAgreement.swift in Sources */,
 				44172D392C9213E000765C26 /* myPageUserInfo.swift in Sources */,
+				446E4EA72CB05F410067BEBA /* RankUI.swift in Sources */,
+				4484F9AD2CB19D0F00B06408 /* logoCell_1.swift in Sources */,
 				44E88F312C90CE6800B5BDE5 /* homeAboutLCK.swift in Sources */,
 				44E88EFB2C90CC8500B5BDE5 /* ContentView.swift in Sources */,
+				447130D32CB2B3CC0068207A /* detailTopbar.swift in Sources */,
+				447130C82CB28D010068207A /* CommunityUI.swift in Sources */,
 				44C4DD802CAC6187006EFDCC /* Privacy_Text.swift in Sources */,
 				44172D342C92106300765C26 /* Topbar_1.swift in Sources */,
 				44E88F332C90CE6800B5BDE5 /* HomeUI.swift in Sources */,
 				44C4DD7B2CAC480C006EFDCC /* PermitViewModel.swift in Sources */,
+				447130DF2CB2B8E30068207A /* postMenu.swift in Sources */,
 				442ADC0A2CA5DF6F00A79772 /* Teamselect.swift in Sources */,
 				442ADBFE2CA5B7D000A79772 /* radioBtn.swift in Sources */,
+				4484F9B92CB1AE0500B06408 /* infomationUI.swift in Sources */,
+				4484F9B12CB1A2AF00B06408 /* MyPost&MyCommentUI.swift in Sources */,
 				4422BAF42CAF01F8002F1132 /* Service_Text.swift in Sources */,
+				447130C32CB287000068207A /* Font.swift in Sources */,
 				44E88EF92C90CC8500B5BDE5 /* _modooLCK_iOS_App.swift in Sources */,
 				442ADC062CA5DE2400A79772 /* joinPhoto.swift in Sources */,
 				442ADC042CA5DA5200A79772 /* nickNameCheck.swift in Sources */,
 				44172D332C92106300765C26 /* Topbar_3.swift in Sources */,
 				44E88F2D2C90CE6800B5BDE5 /* homeResultCell.swift in Sources */,
+				4484F9AF2CB19DA300B06408 /* logoCell_roundText.swift in Sources */,
+				4484F9B62CB1A80100B06408 /* MyViewingPartyUI.swift in Sources */,
 				442ADC092CA5DF6F00A79772 /* joinTeam.swift in Sources */,
+				447130DB2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */,
+				446E4EAC2CB062F50067BEBA /* accountOutUI.swift in Sources */,
 				442ADC002CA5C31D00A79772 /* popup_oneBtn.swift in Sources */,
 				442ADC022CA5D56C00A79772 /* joinNickname.swift in Sources */,
 				44E88F2E2C90CE6800B5BDE5 /* HomePolygon.swift in Sources */,
@@ -464,7 +672,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130C42CB287000068207A /* Font.swift in Sources */,
+				447130D42CB2B3CC0068207A /* detailTopbar.swift in Sources */,
+				447130E02CB2B8E30068207A /* postMenu.swift in Sources */,
 				44E88F0A2C90CC8700B5BDE5 /* _modooLCK_iOS_Tests.swift in Sources */,
+				447130C92CB28D010068207A /* CommunityUI.swift in Sources */,
+				447130CD2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
+				447130DC2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,8 +686,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447130D52CB2B3CC0068207A /* detailTopbar.swift in Sources */,
 				44E88F162C90CC8700B5BDE5 /* _modooLCK_iOS_UITestsLaunchTests.swift in Sources */,
+				447130DD2CB2B6FB0068207A /* CommunityPostUI.swift in Sources */,
+				447130CE2CB2ADEC0068207A /* CommunityCell.swift in Sources */,
+				447130E12CB2B8E30068207A /* postMenu.swift in Sources */,
 				44E88F142C90CC8700B5BDE5 /* _modooLCK_iOS_UITests.swift in Sources */,
+				447130C52CB287000068207A /* Font.swift in Sources */,
+				447130CA2CB28D010068207A /* CommunityUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
