@@ -13,7 +13,7 @@ struct Topbar_2: View {
    @Binding var isArrowButtonEnabled: Bool // 화살표 버튼의 활성화 상태를 나타내는 매개변수
 
     var body: some View {
-        HStack(alignment: .center) {
+        HStack {
             
             Rectangle()
                 .frame(width: 45, height: 45)
@@ -24,29 +24,22 @@ struct Topbar_2: View {
             VStack(alignment: .center, spacing: 8) {
                 Text(Title)
                     .font(Font.custom("Cafe24 Ohsquare", size: 20))
-                    .kerning(0.2)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, alignment: .center)
              
                 Text(SubTitle)
                     .font(
                         Font.custom("Cafe24 Ohsquare air", size: 12)
                             .weight(.light)
                     )
-                    .kerning(0.12)
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, alignment: .center)
             }
-            .padding(0)
             .frame(width: 82, alignment: .center)
-            
+            .multilineTextAlignment(.center)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity, alignment: .center)
             Spacer()
             
             // 화살표 버튼
             Button(action: {
-                // 버튼 클릭 시 실행할 동작
+                
             }) {
                 Image("Topbar_Right")
                     .resizable()

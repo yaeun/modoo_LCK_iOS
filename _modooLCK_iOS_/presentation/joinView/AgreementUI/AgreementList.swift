@@ -77,5 +77,5 @@ struct AgreementList: View {
 }
 
 #Preview {
-    AgreementList(isAlertPresented_1: .constant(false), isAlertPresented_2: .constant(false))
+    joinAgreement()
 }

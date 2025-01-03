@@ -18,7 +18,10 @@ struct HomeUI: View {
             
             VStack {
                 homeTopbar() //상단바
-                
+                        .frame(height: 28)
+                        .frame(maxWidth: .infinity)
+                        .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                    
                 Text("Today's Matches")
                     .padding(.top, 12)
                     .padding(.bottom, 20)
@@ -66,6 +69,8 @@ struct HomeUI: View {
                     }
                 }
                 .padding(.bottom,8)
+                
+                Spacer()
                 
                 //BottomBar()
             }
