@@ -17,7 +17,7 @@ struct joinTeam: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
-                Topbar_2(Title: "Title", SubTitle: "SubTitle", isArrowButtonEnabled: .constant(true))
+                Topbar_2(Title: "회원가입", SubTitle: "My Team선택", isArrowButtonEnabled: .constant(true))
                     .frame(height: 60)
                     .padding(.top, 20)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0)
